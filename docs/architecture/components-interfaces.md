@@ -170,6 +170,12 @@
 
 ---
 
+```mermaid
+graph TD
+  A[Start] --> B[End]
+```
+
+
 ## Диаграмма компонентов интерфейсного слоя (Mermaid)
 
 ```mermaid
@@ -220,4 +226,5 @@ C4Component
     Rel(metrics, int_http_controller, "Собирает метрики интеграционного API")
     Rel(metrics, monitoring, "Публикует метрики", "Prometheus/PushGateway")
 ```
+
 
