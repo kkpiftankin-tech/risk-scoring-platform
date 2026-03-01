@@ -219,3 +219,5 @@ C4Component
     Rel(metrics, http_controller, "Собирает метрики запросов")
     Rel(metrics, int_http_controller, "Собирает метрики интеграционного API")
     Rel(metrics, monitoring, "Публикует метрики", "Prometheus/PushGateway")
+```
+
